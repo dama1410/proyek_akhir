@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">KelompokKita</string>
+
+    <!-- dari biodata -->
+    <string name="Nama_Mutia">Nama: Mutia Damayanti</string>
+    <string name="Nim_Mutia">Nim: 23050456</string>
+    <string name="Alamat_Mutia">Alamat: Jl.Garuda rt003/002</string>
+    <string name="Email_Mutia">Email: yourrr05babyyy@gmail.com</string>
+    <string name="Telepon_Mutia">Telepon: 085811051295</string>
+
+    <string name="Nama_Filzah">Nama: Anisa Filzah Ghozani </string>
+    <string name="Nim_Filzah">Nim: 23050011</string>
+    <string name="Alamat_Filzah">Alamat: Kp. Batu Ceper Kel. Jurumudi Baru Kec. Benda Kota Tangerang</string>
+    <string name="Email_Filzah">Email: anisafilzahghozani@email.com</string>
+    <string name="Telepon_Filzah">Telepon: 088290459431</string>
+
+
+    <!-- dari riwayat pendidikan -->
+    <string name="SD_Mutia">SD: SDS ISLAM AL-KAUTSAR(2010 - 2016)</string>
+    <string name="SMP_Mutia">SMP: SMP PGRI BATUCEPER(2016 - 2019) </string>
+    <string name="SMK_Mutia">SMK: SMK LAB BUSSINES SCHOOL(2019 - 2022)</string>
+    <string name="UIVERSITAS_Mutia">Universitas: Universitas Yatsi Madai (2023 - sekarang)</string>
+
+    <string name="SD_Filzah">SD: SDN Jurumudi 1 Kota Tangerang (2010 - 2016)</string>
+    <string name="SMP_Filzah">SMP: MTsS Jabal Nur Universal (2016 - 2019) </string>
+    <string name="SMK_Filzah">SMK: MAS Jabal Nur Universal (2019 - 2022)</string>
+    <string name="UNIVERSITAS_Filzah">Universitas: Universitas Yatsi Madai (2023 - sekarang)</string>
+
+    <!-- Aktivitas Sehari-hari -->
+    <string name="judul_aktivitas_Mutia">Aktivitas Sehari-hari</string>
+    <string name="aktivitas_1_Mutia">10.00 : Bangun Tidur</string>
+    <string name="aktivitas_2_Mutia">13.00 : Bantu beresin rumah</string>
+    <string name="aktivitas_3_Mutia">17.00 : Berangkat Kuliah</string>
+    <string name="aktivitas_4_Mutia">22.00 : Sampai rumah</string>
+    <string name="aktivitas_5_Mutia">01.00 : Main hp sekalian nugas</string>
+    <string name="aktivitas_6_Mutia">06.00 : Tidur</string>
+
+    <string name="judul_aktivitas_Filzah">Aktivitas Sehari-hari</string>
+    <string name="aktivitas_1_Filzah">07.30 : Bekerja di PT. Yaxiya Jewelry</string>
+    <string name="aktivitas_2_Filzah">12.00 : Istirahat Kerja</string>
+    <string name="aktivitas_3_Filzah">17.30 : Pulang Kerja</string>
+    <string name="aktivitas_4_Filzah">18.20 : Kuliah</string>
+    <string name="aktivitas_5_Filzah">21.40 : Pulang Kuliah</string>
+    <string name="aktivitas_6_Filzah">22.00 : Sampai Rumah Lanjut bebersih</string>
+    <string name="aktivitas_7_Filzah">22.30 : Belajar untuk Mengerjakan Tugas</string>
+    <string name="aktivitas_8_Filzah">23.30 : Tidur Malam</string>
+
+
+
+</resources>

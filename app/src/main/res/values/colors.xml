@@ -1,0 +1,13 @@
+<resources>
+    <!-- background warna pastel lucu -->
+    <color name="bg_biodata">#FFF1F9</color> <!-- pink muda -->
+
+    <!-- warna judul -->
+    <color name="judul_biodata">#FF69B4</color> <!-- hot pink / pink cerah -->
+
+    <!-- warna teks -->
+    <color name="text_biodata">#5A5A5A</color> <!-- abu tua biar enak dibaca -->
+
+    <!-- kalau kamu mau nambah aksen bisa pakai ini juga -->
+    <color name="aksen_lucu">#FFD3E0</color> <!-- pink pucat untuk hiasan -->
+</resources>
