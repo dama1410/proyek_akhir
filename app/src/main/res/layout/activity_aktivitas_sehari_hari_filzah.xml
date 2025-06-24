@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_biodata">
+    android:background="@drawable/background">
 
     <LinearLayout
         android:orientation="vertical"
@@ -10,68 +11,151 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/aktivitas_1_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+        <ImageView
+            android:id="@+id/butterflyImage1"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/butterfly"
+            android:contentDescription="@string/butterfly_desc" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <ImageView
+            android:id="@+id/butterflyImage2"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/butterfly"
+            android:contentDescription="@string/butterfly_desc" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/aktivitas_2_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/aktivitas_3_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_1_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <!-- copas blok CardView ini buat yang lain -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/aktivitas_4_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/aktivitas_5_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_2_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/aktivitas_6_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/aktivitas_7_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_3_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/aktivitas_8_Filzah"
-            android:textSize="18sp"
-            android:textColor="@color/text_biodata"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_4_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_5_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_6_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_7_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/aktivitas_8_Filzah"
+                android:textSize="18sp"
+                android:textColor="@color/text_biodata" />
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </ScrollView>

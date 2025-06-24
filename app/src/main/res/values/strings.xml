@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">KelompokKita</string>
+    <string name="butterfly_desc">Gambar kupu-kupu</string>
+
 
     <!-- dari biodata -->
     <string name="Nama_Mutia">Nama: Mutia Damayanti</string>
@@ -19,12 +21,12 @@
     <string name="SD_Mutia">SD: SDS ISLAM AL-KAUTSAR(2010 - 2016)</string>
     <string name="SMP_Mutia">SMP: SMP PGRI BATUCEPER(2016 - 2019) </string>
     <string name="SMK_Mutia">SMK: SMK LAB BUSSINES SCHOOL(2019 - 2022)</string>
-    <string name="UIVERSITAS_Mutia">Universitas: Universitas Yatsi Madai (2023 - sekarang)</string>
+    <string name="UIVERSITAS_Mutia">Universitas: Universitas Yatsi Madani (2023 - sekarang)</string>
 
     <string name="SD_Filzah">SD: SDN Jurumudi 1 Kota Tangerang (2010 - 2016)</string>
     <string name="SMP_Filzah">SMP: MTsS Jabal Nur Universal (2016 - 2019) </string>
     <string name="SMK_Filzah">SMK: MAS Jabal Nur Universal (2019 - 2022)</string>
-    <string name="UNIVERSITAS_Filzah">Universitas: Universitas Yatsi Madai (2023 - sekarang)</string>
+    <string name="UNIVERSITAS_Filzah">Universitas: Universitas Yatsi Madani (2023 - sekarang)</string>
 
     <!-- Aktivitas Sehari-hari -->
     <string name="judul_aktivitas_Mutia">Aktivitas Sehari-hari</string>

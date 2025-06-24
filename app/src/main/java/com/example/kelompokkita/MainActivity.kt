@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatDelegate // penting buat matiin dark mode
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -20,6 +21,10 @@ import com.example.kelompokkita.ui.theme.KelompokKitaTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // ini supaya tampilan aplikasi selalu light mode
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+
         enableEdgeToEdge()
         setContent {
             KelompokKitaTheme {
@@ -64,7 +69,7 @@ fun MainScreen(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFFFF5E1))
+            .background(Color(0xFFFFF5E1)) // background cream
             .padding(24.dp),
         contentAlignment = Alignment.Center
     ) {
